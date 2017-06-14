@@ -1,0 +1,80 @@
+body{
+  background-color:#333333;
+}
+
+h1{
+  font-family: 'Lora', serif;
+  color:#ffffff;
+  margin: 2% auto;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 3.2em;
+}
+input{
+  /*margin-left: 35%;
+  margin-right:35%;
+  width: 30%;*/
+  text-align: center;
+
+  border-radius:10px;
+  outline: none;
+  font-size: 1.6em;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #13a277;
+  text-decoration: none
+}
+.hide {
+  display: none;
+}
+#randLink{
+  display: inline-block;
+  margin: 1% auto;
+}
+#randButton{
+  text-align: center;
+  width: 150px;
+  line-height: 38px;
+  background: white;
+  border: 1px solid #13a277;
+  border-radius:4%;
+}
+#buttonBox{
+  text-align: center;
+  vertical-align: middle;
+}
+#titleRes{
+  text-decoration:underline;
+}
+li {
+  font-size: 1.5em;
+  border: 2px solid #13a277;
+  border-radius: 1%;
+  background: #ffffff;
+  margin: 1%;
+  font-family: 'Lora', serif;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+p{
+  font-size: 0.8em;
+}
+button{
+  margin: 1%;
+}
+#searchBtn{
+  background-color: #13a277;
+}
+#searchBtn:hover{
+  background-color: #33b995;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
